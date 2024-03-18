@@ -93,10 +93,22 @@ form p a {
   border: 0;
   outline: 0;
   cursor: pointer;
-  transition: background 1s;
+
 }
 
 .btn-field button.disable {
   background: #eaeaea;
   color: #555;
+}
+
+.btn-field button:hover {
+
+  background-color: #eaeaea;
+  color: black;
+
+}
+
+.btn-field button.disable:hover {
+  color: #400857;
+
 }
